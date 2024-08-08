@@ -16,6 +16,7 @@ namespace AttackServer
         static async Task Main(string[] args)
         {
             try
+                
             {
                 string jsonFilePath = "C:\\Users\\lzrpr\\OneDrive\\Desktop\\קבצים\\תיכנות\\עבודות בתכנות\\_galil\\Reposetory\\IronDome\\AttackServer\\Missiles.json";
                 List<Missile> missiles = await AttackMenager.GetFileAsync(jsonFilePath);
